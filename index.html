@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cliente de nuestro SPA Router</title>
+</head>
+<body>
+  <header>
+    <ul>
+      <li><button onclick="router.loadRoute('')">home</button></li>
+      <li><button onclick="router.loadRoute('contacto')">contact</button></li>
+      <li><button onclick="router.loadRoute('about')">about me</button></li>
+    </ul>
+  </header>
+  <div data-router></div>
+  <script src="../router.js"></script>
+  <script src="../routes.js"></script>
+  <script src="../index.js"></script>
+</body>
+</html>
